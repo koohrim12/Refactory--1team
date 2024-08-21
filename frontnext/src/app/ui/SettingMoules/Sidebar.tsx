@@ -1,6 +1,6 @@
 import React from 'react';
-import TotalStyles from '@/app/ui/styles/TotalStyles';
-import { useLanguage } from './Language/LanguageContext';
+import TotalStyles from '../styles/TotalStyles';
+import { useLanguage } from './LanguageContext';
 
 const Sidebar = ({
   isOpen,

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from './LanguageContext';
-import { SettingStyles } from '@/app/ui/styles/styles-ys';
+import { SettingStyles } from '../styles/styles-ys';
 
 const LanguageModal = ({ onClose }: { onClose: () => void }) => {
   const { setLanguage } = useLanguage();

@@ -1,7 +1,7 @@
-import TotalStyles from '@/app/ui/styles/TotalStyles';
+import TotalStyles from '../styles/TotalStyles';
 import React, { useState } from 'react';
-import { useLanguage } from './Language/LanguageContext';
-import LanguageModal from './Language/LanguageModal';
+import { useLanguage } from './LanguageContext';
+import LanguageModal from './LanguageModal';
 
 const InterfaceSettings = () => {
   const { language } = useLanguage();

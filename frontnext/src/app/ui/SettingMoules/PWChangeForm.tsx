@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import TotalStyles from '@/app/ui/styles/TotalStyles';
-import { useLanguage } from '../Language/LanguageContext';
+import TotalStyles from '../styles/TotalStyles';
+import { useLanguage } from '../SettingMoules/LanguageContext';
 import buttonStyles from '../styles/ButtonStyles';
 
 interface PasswordCheck {

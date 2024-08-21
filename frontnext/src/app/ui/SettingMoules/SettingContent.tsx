@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
-import TotalStyles from '@/app/ui/styles/TotalStyles';
+import TotalStyles from '../styles/TotalStyles';
 import UserManagement from './UserManagement';
 import LogAct from './LogAct';
 import InterfaceSettings from './InterfaceSettings';
